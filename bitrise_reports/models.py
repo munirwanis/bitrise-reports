@@ -13,6 +13,9 @@ class MachineSize(Enum):
     g2small = "g2.4core"
     g2medium = "g2.8core"
     g2large = "g2.12core"
+    g2m1large = "g2-m1.8core"
+    g2m1maxmedium = "g2-m1-max.5core"
+    g2m1maxlarge = "g2-m1-max.10core"
 
 
 class BuildStack(Enum):
